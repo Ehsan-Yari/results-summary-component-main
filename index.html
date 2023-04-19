@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body class="min-h-screen grid place-items-center font-hanken text-lg">
+    <main
+      class="lg:rounded-[30px] shadow-2xl shadow-cobalt-blue/20 grid grid-cols-1 lg:grid-cols-2 overflow-hidden"
+    >
+      <div
+        class="flex flex-col lg:rounded-[30px] gap-y-8 rounded-b-[30px] items-center justify-center px-[60px] bg-gradient-to-b from-light-slate-blue to-light-royal-blue"
+      >
+        <p class="text-light-lavender text-2xl font-bold mt-8 py-1">Your Result</p>
+        <div
+          class="rounded-full w-[200px] h-[200px] bg-gradient-to-b from-violet-blue to-persian-blue flex flex-col items-center justify-center"
+        >
+          <div class="relative mb-3">
+            <p class="text-white text-7xl font-extrabold leading-[70px]">76</p>
+            <p
+              class="text-light-lavender text-center opacity-50 absolute left-1/2 w-full -translate-x-1/2 transform"
+            >
+              of 100
+            </p>
+          </div>
+        </div>
+        <p class="text-white font-bold text-3xl -mb-3">Great</p>
+        <p class="text-light-lavender text-center mb-12 leading-6">
+          You scored higher than 65% of <br />
+          the people who have taken <br />
+          these tests.
+        </p>
+      </div>
+      <div class="flex flex-col gap-y-2 items-center p-9">
+        <p class="mb-5 text-dark-gray-blue font-bold self-start text-2xl">
+          Summary
+        </p>
+        <div
+          class="flex mb-1 items-center bg-light-red/5 justify-between p-4 rounded-2xl w-full"
+        >
+          <div class="flex items-center justify-center gap-x-3">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction" />
+            <p class="text-light-red">Reaction</p>
+          </div>
+          <div class="flex font-bold text-light-lavender gap-x-2">
+            <p class="text-dark-gray-blue">80</p>
+            <p>/</p>
+            <p>100</p>
+          </div>
+        </div>
+        <div
+          class="flex mb-1 items-center bg-orangey-yellow/5 justify-between p-4 rounded-2xl w-full"
+        >
+          <div class="flex items-center justify-center gap-x-3">
+            <img src="./assets/images/icon-memory.svg" alt="memory" />
+            <p class="text-orangey-yellow">Memory</p>
+          </div>
+          <div class="flex font-bold text-light-lavender gap-x-2">
+            <p class="text-dark-gray-blue">92</p>
+            <p>/</p>
+            <p>100</p>
+          </div>
+        </div>
+        <div
+          class="flex mb-1 items-center bg-green-teal/5 justify-between p-4 rounded-2xl w-full"
+        >
+          <div class="flex items-center justify-center gap-x-3">
+            <img src="./assets/images/icon-verbal.svg" alt="verbal" />
+            <p class="text-green-teal">Verbal</p>
+          </div>
+          <div class="flex font-bold text-light-lavender gap-x-2">
+            <p class="text-dark-gray-blue">61</p>
+            <p>/</p>
+            <p>100</p>
+          </div>
+        </div>
+        <div
+          class="flex mb-1 items-center bg-violet-blue/5 justify-between p-4 rounded-2xl w-full"
+        >
+          <div class="flex items-center justify-center gap-x-3">
+            <img src="./assets/images/icon-visual.svg" alt="visual" />
+            <p class="text-violet-blue">Visual</p>
+          </div>
+          <div class="flex font-bold text-light-lavender gap-x-2">
+            <p class="text-dark-gray-blue">72</p>
+            <p>/</p>
+            <p>100</p>
+          </div>
+        </div>
+        <button
+          class="font-hanken mt-7 py-3.5 px-24 bg-dark-gray-blue text-white rounded-[56px] hover:bg-gradient-to-b hover:from-light-slate-blue hover:to-light-royal-blue w-full"
+        >
+          Continue
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
